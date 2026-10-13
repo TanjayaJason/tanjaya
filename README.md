@@ -6,6 +6,8 @@ Source for [tanjaya.vercel.app](https://tanjaya.vercel.app/), a single-page port
 
 I'm an AI Engineer and Software Engineer building practical applications around LLMs, agentic workflows, and retrieval-augmented generation. I focus on the backend services, data systems, and interfaces that make AI useful beyond a prototype.
 
+I have worked as an AI Engineer at **PT Berca Hardayaperkasa since April 2026**. Before that, I was an IT Intern at PT. Berca Mandiri Perkasa and a Lab Assistant at Tarumanagara University.
+
 ## Tech stack
 
 | Area | Tools and concepts |
@@ -18,7 +20,9 @@ I'm an AI Engineer and Software Engineer building practical applications around 
 ## What is on the site
 
 - An AI engineering introduction and current areas of focus
+- Separate experience and education sections, followed by services and projects
 - Featured projects: Agentic RAG + Text2SQL, Jak Air, and TLPI Bidang 4
+- Earlier original projects: Showroom, PythonSaja, and NLPBot
 - A tech stack aligned with the [public GitHub profile](https://github.com/TanjayaJason)
 - Experience, education, and professional contact links
 
