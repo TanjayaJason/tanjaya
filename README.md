@@ -1,36 +1,25 @@
-# Tanjaya Jason Winata — AI Engineer Portfolio
+# Tanjaya Jason Winata - AI Engineer
 
-Source for [tanjaya.vercel.app](https://tanjaya.vercel.app/), a single-page portfolio focused on AI engineering, software systems, and selected public work.
+Portfolio source for [tanjaya.vercel.app](https://tanjaya.vercel.app/). I'm an AI Engineer at PT Berca Hardayaperkasa. I work with LLM applications, agents, and retrieval-augmented generation (RAG).
 
-## About me
+Public projects include a FastAPI service that routes questions to PostgreSQL or a ChromaDB document collection, plus a Jakarta air-quality classifier built with Sentinel-5P data and SVM.
 
-I'm an AI Engineer and Software Engineer building practical applications around LLMs, agentic workflows, and retrieval-augmented generation. I focus on the backend services, data systems, and interfaces that make AI useful beyond a prototype.
+## Site sections
 
-I have worked as an AI Engineer at **PT Berca Hardayaperkasa since April 2026**. Before that, I was an IT Intern at PT. Berca Mandiri Perkasa and a Lab Assistant at Tarumanagara University.
+The page covers experience, education, AI engineering services, projects, and the tools used in those projects. Earlier web and NLP experiments appear below the featured projects.
 
 ## Tech stack
 
 | Area | Tools and concepts |
 | --- | --- |
-| AI and data | Python, LLMs, RAG, AI agents, Ollama, ChromaDB |
-| Backend | FastAPI, PostgreSQL, REST APIs, Vanna AI |
-| Frontend | Next.js, React, TypeScript, JavaScript |
+| AI and data | Python, LLMs, RAG, AI agents, Ollama, ChromaDB, Scikit-learn, Vanna AI |
+| Backend | FastAPI, PostgreSQL, REST APIs |
+| Web | Next.js, React, TypeScript, JavaScript, Streamlit |
 | Workflow | Linux, Git |
-
-## What is on the site
-
-- An AI engineering introduction and current areas of focus
-- Separate experience and education sections, followed by services and projects
-- Featured projects: Agentic RAG + Text2SQL, Jak Air, and TLPI Bidang 4
-- Earlier original projects: Showroom, PythonSaja, and NLPBot
-- A tech stack aligned with the [public GitHub profile](https://github.com/TanjayaJason)
-- Experience, education, and professional contact links
-
-The interface uses plain HTML, CSS, and JavaScript. It has no build step, runtime dependencies, analytics, or contact form. Scroll reveals and ambient motion use `IntersectionObserver` and `requestAnimationFrame`; the site respects reduced-motion preferences and keeps content visible when JavaScript is unavailable.
 
 ## Run locally
 
-From the repository root:
+The site uses plain HTML, CSS, and JavaScript. It has no build step or runtime dependencies.
 
 ```bash
 python -m http.server 8000
@@ -38,17 +27,17 @@ python -m http.server 8000
 
 Open `http://localhost:8000`.
 
-## Edit the portfolio
+## Files
 
 | Content | File |
 | --- | --- |
-| Bio, projects, links, metadata | `index.html` |
-| Layout, colors, responsive design, motion | `css/portfolio.css` |
-| Navigation, scroll effects, reveal logic | `js/portfolio.js` |
-| Project image | `images/jakair.jpg` |
+| Page copy, projects, and links | `index.html` |
+| Layout, jade and amber palette, responsive styles, and animation | `css/portfolio.css` |
+| Mobile navigation and scroll effects | `js/portfolio.js` |
+| Jak Air project image | `images/jakair.jpg` |
 
-Project descriptions are based on their public repositories. Update the text in `index.html` when a project changes. The earlier template files in `css/`, `js/`, and `scss/` are retained for reference but are not loaded by the current page.
+The earlier template files remain in the repository for reference. The current page loads `css/portfolio.css` and `js/portfolio.js`.
 
 ## Privacy
 
-The page links to public GitHub and LinkedIn profiles. It does not publish a phone number, street address, birth date, direct email address, or downloadable CV. Before adding personal information, review what would become publicly accessible in the site and repository.
+The page links to my public GitHub and LinkedIn profiles. It does not publish a phone number, street address, direct email address, or downloadable CV.
